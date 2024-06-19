@@ -1,0 +1,13 @@
+.Gift, .Join, .Call, .Read, .Discover, #decouv2, .JoinM, .JoinAlt, .A1, .A2, #NavLogo, .Hnav p, .Imenu a {
+    transition: all 0.2s ease;
+}
+
+.Gift:hover, .Join:hover, .Call:hover, .Read:hover, .JoinM:hover, .Discover:hover, #decouv2:hover, .JoinAlt:hover, .A1:hover, .A2:hover, #NavLogo:hover, .Hnav p:hover, .Imenu a:hover {
+    transform: scale(1.1);
+}
+
+/* Animation de grossissement au survol ! nice !*/
+
+.Gift:active, .Discover:active, .Join:active, .Call:active, .JoinM:active, .Read:active, .JoinAlt:active, .A1:active, .A2:active, #NavLogo:active, .Hnav p:active, .Imenu a:active {
+    transform: scale(1.0);
+}

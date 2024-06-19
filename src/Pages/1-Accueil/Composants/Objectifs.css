@@ -1,0 +1,74 @@
+
+.objectifs {
+    text-align: center;
+    background-color: #000A21;
+}
+
+.objectifs h3 {
+    padding: 20px;
+    color: #FBFEFF;
+    font-size: 32px;
+}
+
+.objectifs h5 {
+    color: #FBFEFF;
+    font-size: 20px;
+}
+
+.objectifs p{
+    color: #96BCC5;
+    font-size: 14px;
+}
+
+.menuB {
+    display: flex;
+}
+
+#menuB {
+    background-color: #fbfeff15;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 30px;
+    height: 80%;
+}
+
+.objectifs  {
+   & img{
+        margin: 25px 0px;
+    }
+}
+
+#OImg {
+    border-radius: 100%;
+    background-color: #000A21;
+    margin: 0px 100px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+
+.swiper-button-prev{
+    rotate: 180deg;
+    margin: 20px;
+    &::after{
+        display: none;
+    }
+}
+.swiper-button-next{
+    margin: 20px;
+    &::after{
+        display: none;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    #menuB {
+        margin: 10px;
+        width: 200px;
+        height: 350px;
+    }
+    .slider-controler {
+        display: none;
+    }
+}

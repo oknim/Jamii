@@ -1,0 +1,196 @@
+header {
+    background-color: #000A21;
+    color: #FBFEFF;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+
+.headerL {
+    width: 66px;
+    height: 61px;
+}
+
+.Hnav .HeaderLinks{
+    display: flex;
+    /* align-items: center; */
+}
+
+.Hnav a {
+    margin-right: 40px;
+    color: #FBFEFF;
+    text-decoration: none;
+    transition: color 0.1s;
+}
+.Hnav .headerL, .Hnav .JoinM, .Hnav .Call {
+    visibility: hidden;
+    width: 0px;
+}
+
+/*Animation des éléments du nav*/
+
+.Hnav p::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 3px;
+    color: #FDD41E;
+    background: #FDD41E;
+    border-radius: 50px;
+    transition: width 0.2s ease-in-out;
+}
+.Hnav p:hover::after {
+    width: 100%;
+}
+
+.Hnav a:hover {
+    color: #FDD41E;
+}
+
+/*Pour le menu burger*/
+
+.Burger {
+    width: 40px;
+    height: 40px;
+    color: inherit;
+    background: transparent;
+    border: none;
+    display: none;
+}
+
+@media screen and (max-width : 767px){
+    .Hnav .HeaderLinks{
+        flex-direction: column;
+        /* justify-content: center; */
+        position: fixed;
+        right: -100vw;
+        bottom: 0;
+        height: 100vh;
+        padding: 2rem;
+        /* align-items: stretch; */
+        background-color: #000A21;
+        visibility: hidden;
+        transition: all .5s ease-out;
+    }
+    .Show-menu .HeaderLinks {
+        right: -10vw;
+        visibility: visible;
+        width: 100vw;
+    }
+    .Show-menu .headerL {
+        align-self: center;
+        width: auto;
+        margin: 20vw 0vw 0vw 0vw;
+        visibility: visible;
+    }
+    .Hnav .JoinM, .Hnav .Call {
+        visibility: visible;
+        width: auto;
+        margin: 10px 25px;
+    }
+    .Hnav .JoinM {
+        margin-top: 6rem;
+    }
+    .Hnav a {
+        margin: 0rem 2rem;
+        font-size: 4vw;
+    }
+    .Burger {
+        display: block;
+        position: fixed;
+        cursor: pointer;
+        top: 1rem;
+        right: 2rem;
+    }
+
+    .BurgerSpan,
+    .BurgerSpan::before,
+    .BurgerSpan::after {
+        display: block;
+        width: 40px;
+        height: 3px;
+        position: relative;
+        border-radius: 3px;
+        background-color: #96BCC5;
+        transition: all .5s ease-in-out;
+    }
+    .BurgerSpan::before,
+    .BurgerSpan::after {
+        content: "";
+        position: absolute;
+        left: 0;
+    }
+    .BurgerSpan::before {
+        transform: translateY(-12px);
+    }
+    .BurgerSpan::after {
+        transform: translateY(12px);
+    }
+
+    .Show-menu .BurgerSpan::before {
+        transform: rotate(45deg);
+    }
+    .Show-menu .BurgerSpan::after {
+        transform: rotate(-45deg);
+    }
+    .Show-menu .BurgerSpan {
+        width: 0;
+        background: transparent;
+    }
+
+    /*Style des nouvelles transitions & Elements*/
+    .Hnav p::after {
+        content: '';
+        display: block;
+        width: 90%;
+        height: 1px;
+        margin-top: 2px;
+        background-color: #96BCC5;
+        border-radius: 50px;
+        transition: background-color 0.2s;
+    }
+    .Hnav p:hover::after {
+        background-color: #FDD41E;
+    }
+    .Hnav .First:hover::after {
+        width: 90%;
+    }
+    .Hnav .Second::after {
+        width: 70%;
+    }
+    .Hnav .Second:hover::after {
+        width: 70%;
+    }
+    .Hnav .Third::after {
+        width: 50%;
+    }
+    .Hnav .Third:hover::after {
+        width: 50%;
+    }
+    .Hnav .Forth::after {
+        width: 30%;
+    }
+    .Hnav .Forth:hover::after {
+        width: 30%;
+    }
+    .Hnav .Fifth::after {
+        display: none;
+    }
+
+    .Show-menu .Gift {
+        margin: 0px 25px;
+    }
+    .Gift::after {
+        content: "";
+        display: block;
+        width: 70%;
+        height: 1px;
+        background-color: #96BCC5;
+        border-radius: 50%;
+        position: absolute;
+        transform: translateY(40px);
+    }
+}

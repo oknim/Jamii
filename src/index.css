@@ -1,0 +1,12 @@
+
+code {
+    font-family: 'Poppins', 'Richards Frederick';
+}
+
+body {
+    background-color: #f8fafd;
+    margin: 0;
+    font-family: 'Poppins', 'Richards Frederick';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,73 @@
+.last {
+    background: #02091B;
+    text-align: center;
+}
+
+.last span {
+    opacity: 40%;
+    font-size: 10px;
+    font-weight: 400;
+    color: #FBFEFF;
+}
+
+.Contact {
+    background: url("D:\Documents\Jamii\jamii\public\LOGO Filigrane.svg") no-repeat ;
+    background-color: #000A21;
+    text-align: center;
+}
+.Contain {
+    padding: 20px;
+    text-align: center;
+}
+.Contact h3 {
+    color: #FBFEFF;
+    margin: 20px 0px;
+    text-align: justify;
+    font-size: 32px;
+    font-weight: 700;
+}
+.Contact p {
+    color: #FBFEFF;
+}
+.Icontact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Icontact p {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
+.Icontact img{
+    background: #F0FAFC;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Iliens {
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+.Flogo {
+    position: absolute;
+    left: 1020px;
+    top: 6520px;
+}
+.Imenu a{
+    text-decoration: none;
+    color: #FBFEFF;
+    margin: 20px;
+    /* transition: color 0.1s; */
+}
+.Imenu a:hover {
+    color: #FDD41E;
+    transform: scale(1.0);
+}
+.Imenu, .Icontact, .Iliens {
+    margin: 30px 0px;
+}

@@ -1,0 +1,93 @@
+.projects {
+    text-align: center;
+}
+
+.projects h3 {
+    color: #000A21;
+    font-size: 32px;
+}
+
+.wrap1, .wrap2, .wrap3, .wrap4 {
+    padding: 20px;
+    border-radius: 15px;
+    margin: 40px 150px;
+}
+
+.wrap1 {
+    background: url('D:\Documents\Jamii\jamii\public\ScholarshipIMG.svg') no-repeat;
+}
+.wrap2 {
+    background: url("D:\Documents\Jamii\jamii\public\AfyaIMG.svg") no-repeat;
+}
+.wrap3 {
+    background: url("D:\Documents\Jamii\jamii\public\GestDechetIMG.svg") no-repeat;
+}
+.wrap4 {
+    background: url("D:\Documents\Jamii\jamii\public\AfyaIMG.svg") no-repeat;
+}
+
+#textL, #textR {
+    padding: 30px;
+    margin: 10px;
+    text-align: justify;
+    background-color: #FBFEFF80;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px #00000025;
+}
+
+.projects h4{
+    color: #00303F;
+    font-size: 24px;
+    margin: 10px 10px;
+}
+
+.projects p{
+    color: #00303F;
+    margin: 10px;
+    /* font-size: 16px;
+    font-weight: 400; */
+}
+
+#textL {
+    margin-left: 60%;
+}
+
+#textR {
+    margin-right: 60%;
+}
+
+.JoinAlt {
+    background: none;
+    color: #000A21;
+    font-size: 16px;
+    border:1px solid #00303F;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 70px;
+}
+.Pbutton {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width : 767px) {
+    .projects h3 {
+        font-size: 30px;
+    }
+    .wrap1, .wrap2, .wrap3, .wrap4 {
+        margin: 20px;
+        padding: 60px 0px 5px 0px;
+        background-size: cover;
+    }
+    #textR, #textL {
+        margin: 10px 10px;
+        padding: 1%;
+    }
+    #WPProject {
+        max-height: 100px;
+        text-align: left;
+        overflow: hidden;
+    }
+}

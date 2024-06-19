@@ -1,0 +1,79 @@
+.blog{
+    background-color: #F0FAFC;
+    text-align: center;
+}
+
+.blog h2 {
+    color: #000A21;
+}
+.blog span {
+    color: #00303F;
+}
+
+.decouverte {
+    display: flex;        
+    overflow: visible;
+}
+
+#decouv2 {
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #2E4B6F20;
+    height: 95%;
+}
+
+#decouv2 h4 {
+    color: #000a21;
+    font-size: 24px;
+    text-align: justify;
+    margin: 20px;
+}
+
+#decouv2 p {
+    font-size: 16px;
+    color: #5C7F87;
+    text-align: center;
+    margin: 20px;
+}
+
+.plus {
+    margin: 0px 100px;
+}
+.Fline, .Sline {
+    display: flex;
+}
+.Fline {
+    padding-right: 100px;
+}
+.Sline {
+    padding-left: 100px;
+}
+#numbers {
+    background: #FBFEFF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #90A4B625;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+#numbers img {
+    margin: 20px;
+    width: 150px;
+}
+#decouv2 img {
+    width : 100%;
+}
+#nbrTexte h5{
+    text-align: justify;
+    color: #1BBCF1;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: 700;
+}
+#nbrTexte p {
+    text-align: justify;
+    color: #00303F;
+    font-size: 14px;
+    font-weight: 400;
+}

@@ -1,0 +1,66 @@
+
+.pillar {
+    text-align: center;
+    overflow: hidden;
+}
+
+.pillar h1 {
+    color: #000A21;
+    font-weight: 700;
+    font-size: 32px;
+}
+.pillar h4 {
+    color: #000A21;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 1% 20%;
+}
+.pillar p {
+    font-weight: 600;
+}
+.PSpan {
+    color:#00303F;
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#rub {
+    color: #FBFEFF;
+    background-color: #00303F;
+    border-radius: 20px;
+    margin: 10px;
+}
+.rub {
+    display: flex;
+    margin: 0% 10%;
+}
+
+#rub p {
+    font-size: 16px;
+    color: #96BCC5;
+    margin: 10px;
+}
+#rub p {
+    margin: 20px 40px;
+}
+
+@media screen and (max-width : 767px){
+    .rub {
+        flex-direction: column;
+        margin: 0px;
+    }
+    #rub {
+        margin: 20px;
+        border-radius: 2%;
+    }
+    #rub img {
+        width: 100%;
+    }
+    .pillar h4 {
+        margin: 15px;
+    }
+    #rub h3 {
+        margin: 5px;
+    }
+}

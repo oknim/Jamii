@@ -1,0 +1,95 @@
+
+.main h1 {
+    font-size: 64px;
+    font-weight: 900;
+    color: #FBFEFF;
+    margin: 20px 0px;
+}
+
+.main p {
+    color: #FBFEFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.main span {
+    color: #FDD41E;
+    font-family: 'Richards Frederick';
+    font-size: 25px;
+}
+
+.main {
+    background-image: url("D:\Documents\Jamii\jamii\public\heroSectionIMG.svg");
+    padding: 100px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.mainT {
+    align-items: center;
+}
+
+.mainB {
+    display: flex;
+}
+.Call {
+    margin-left: 50px;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: column;
+    background-color: #000A21;
+    border-radius: 46px;
+    margin: 50px;
+    padding: 5px;
+    position: fixed;
+    left: 1100px;
+    top: 150px;
+    z-index: 2;
+}
+
+.navBar img{
+    margin: 6px 0px;
+}
+#NavLogo {
+    background-color: #00303F50;
+    margin: 2px;
+    border: none;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px;
+    width: 45px;
+    height: 45px;
+}
+
+@media screen and (max-width : 767px){
+    .main {
+        background-image: url("D:\Documents\Jamii\jamii\public\Home_Back_Mobile.svg");
+        flex-direction: column;
+        padding: 15px;
+    }
+    #NavLogo {
+        margin: 5px;
+        background-color: #000A21;
+    }
+    .navBar {
+        visibility: hidden;
+    }
+    .mainB {
+        flex-direction: column;
+    }
+    .mainT h1 {
+        margin-top: 8rem;
+        font-size: 3rem;
+    }
+
+    .Join, .Call {
+        margin: 10px 0px;
+    }
+    .Join {
+        margin-top: 50px;
+    }
+}

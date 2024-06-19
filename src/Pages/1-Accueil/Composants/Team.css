@@ -1,0 +1,107 @@
+.team {
+    text-align: center;
+    background-color: #000A21;
+}
+
+.team h3 {
+    color: #FBFEFF;
+    font-size: 32px;
+}
+
+#pontes {
+    margin: 20px 300px;
+    padding: 10px;
+    background: #F0FAFC;
+    display: flex;
+    border-radius: 10px;
+}
+#pontes img {
+    margin: 30px;
+}
+#pontes h4 {
+    font-size: 24px;
+    color: #000A21;
+    margin: 20px 0px;
+}
+
+#pontes h5 {
+    font-size: 16px;
+    color: #00303F;
+    margin: 0px;
+}
+
+#pontes p {
+    font-size: 14px;
+    color: #5C7F87;
+}
+
+#descrip {
+    text-align: justify;
+    padding: 10px;
+}
+
+.larbins {
+    display: inline-flex;
+}
+
+#larb2 {
+    background-color: #F0FAFC;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: justify;
+}
+
+#larb2 h6 {
+    font-size: 18px;
+    color: #000A21;
+    margin: 15px;
+}
+
+#larb2 p {
+    margin: 15px;
+    font-size: 14px;
+    color: #5C7F87;
+}
+
+@media screen and (max-width : 767px) {
+    .team h3 {
+        font-size : 25px;
+    }
+    #descrip p {
+        display: none;
+    }
+    #pontes {
+        margin: 40px 60px;
+        background: #00303F;
+        padding: 0px;
+        display: block;
+    }
+    #descrip h4, #descrip h5 {
+        color:#F0FAFC;
+        text-align: center;
+    }
+    #descrip h5 {
+        font-size:16px;
+        font-weight: 300;
+    }
+    #pontes img {
+        margin: -20px;
+    }
+    .larbins :last-child, .larbins :nth-child(3) {
+        display: none;
+    }
+    .divider img {
+        visibility: hidden;
+    }
+    .divider {
+        background: url("D:\Documents\Jamii\jamii\public\Vector 1.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #larb2 {
+        margin: 0px;
+        &&img {
+            visibility: hidden;
+        }
+    }
+}

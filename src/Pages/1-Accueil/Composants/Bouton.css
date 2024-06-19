@@ -1,0 +1,78 @@
+button {
+    cursor: pointer;
+}
+
+.Gift {
+    background-color: #FDD41e;
+    border-radius: 25px;
+    border: none;
+    color: #000A21;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button img {
+    margin-right: 3px;
+}
+
+.Join {
+    display: flex;
+    align-items: center;
+    background-color: #FDD41e;
+    color: #000A21;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 25px;
+    font-size: 16px;
+    border: none;
+}
+.JoinM {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #F0FAFC;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    border: none;
+}
+
+.Call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00303F;
+    color: #FBFEFF;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 16px;
+    border: none;
+}
+
+.Read {
+    border: 2px solid #00303F;
+    background: none;
+    margin: auto;
+    border-radius: 105px;
+    padding: 14px 87px 14px 87px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #00303F;
+    line-height: 24px;
+}
+
+
+.Discover {
+    padding: 14px 87px;
+    background-color: #00303F;
+    margin: 10px;
+    border: none;
+    border-radius: 105px;
+    color: #F0FAFC;
+    font-size: 16px;
+    font-weight: 600;
+}
